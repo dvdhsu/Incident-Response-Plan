@@ -1,10 +1,8 @@
-> This is not a real Incident Response Plan, so please do not copy paste it and expect it to be coherent.
-
 # Incident Response Plan
 This document offers guidance for employees or incident responders who believe they have discovered or are responding to a security incident.
 
 ## Escalation
-Email to panic@company.com or a message to #panic should be used to notify the security team of run-of-the mill issues. Be a good witness. Behave as if you were reporting a crime and include lots of specific details about what you have discovered.
+Email to security@tryretool.com or a message to #security should be used to notify the security team of run-of-the mill issues. Be a good witness. Behave as if you were reporting a crime and include lots of specific details about what you have discovered.
 
 ## Severity
 
@@ -14,7 +12,7 @@ Issues meeting this severity are simply suspicions or odd behaviors. They are no
 ### High Severity
 High severity issues relate to problems where an adversary or active exploitation hasn’t been proven yet, and may not have happened, but likely to happen. This may include vulnerabilities with direct risk of exploitation, threats with risk or adversarial persistence on our systems (eg: backdoors, malware), malicious access of business data (eg: passwords, vulnerability data, payments information), or threats that put any individual at risk of physical harm.
 
-High severity issues should include an email to panic@company.com with “Urgent” in the subject line, or a message to #security with “@channel incident” in the message to alert incident responders.
+High severity issues should include an email to security@tryretool.com with “Urgent” in the subject line, or a message to #security with “@channel incident” in the message to alert incident responders.
 
 ### Critical Severity
 Critical issues relate to actively exploited risks and involve a malicious actor. Identification of active exploitation is critical to this severity category.
@@ -27,7 +25,7 @@ Issues where the malicious actor is an internal employee, contractor, vendor, or
 ## Compromised Communications
 If there are IT communication risks, the San Francisco team will announce an out of band solution within the office, and will communicate this to managers with directions over cell phones.
 
-Incident responders must have Wickr messaging arranged before listing themselves as incident members on the wiki.
+Incident responders must have Signal messaging arranged before listing themselves as incident members on the wiki.
 
 ## Response Steps
 For critical issues, the response team will follow an iterative response process designed to investigate, contain exploitation, remediate our vulnerability, and document a post-mortem with the lessons of an incident. 
@@ -48,26 +46,10 @@ We will _Update a Breach Timeline_ with all known temporal data related to the i
 
 ## Response Team Members
 
-| Name    | Cell Phones  | wickr     | signal    | pgp       |
-|---------|--------------|-----------|-----------|-----------|
-| Bob     | 777-777-7777 | something | something | something |
-| Alice   | 777-777-7777 | something | something | something |
-| Mallory | 777-777-7777 | something | something | something |
-
-## External Contact
-
-| Name                | Function          | Email          | Phone         |
-|---------------------|-------------------|----------------|---------------|
-| ACME Forensics      | Forensic Response | name@email.com | (777)-555-555 |
-| Krisis Management   | PR Augmentation   | name@email.com | (777)-555-555 |
-| SF FBI Field Office | Law Enforcement   | name@email.com | (777)-555-555 |
-| J&L Law Partners | Breach Notification Expertise   | name@email.com | (777)-555-555 |
-
-## Runbooks
-> If you have any specific "How To"'s for common investigations, include them here
-
-## Required Retrospective
-> If you want this document to be focused on emergency handling only, you can strike this section.
+| Name    | Cell Phones  | signal |  
+|---------|--------------|--------|
+| David   | 650-660-7038 | dvdhsu |
+| Anthony | 425-614-8234 | jacqt  |
 
 All incidents meeting "High" severity classification must be a part of the regularly scheduled weekly outage meeting.
 
